@@ -1,0 +1,1 @@
+El alumno Alumno [idalumno=1, nombre=alvaro, nacionalidad=española, edad=0, sexo=Hombre]Modulo [idalumno=1, nombre=Lenguaje, codigo=10]Profesor [idprofesor=20, nombre=lucas, sexo=Hombre]

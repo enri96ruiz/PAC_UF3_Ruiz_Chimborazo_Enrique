@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+			"-//Hibernate/HibernateMappingDTD5.3//"
+			"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<!-- class Alumno -->
+	<class name="hibernate.Alumno" table="alumnos" catalog="m06">
+		<id name="idalumno">
+			<column name="id_alumno"/>
+			<generator class="increment"></generator>	
+		</id>
+		<property name="nombre"></property>
+		<property name="nacionalidad"></property>
+		<property name="edad"></property>
+		<property name="sexo"></property>
+	</class>
+<!-- class Profesor -->
+<class name="hibernate.Profesor" table="profesor" catalog="m06">
+	<id name="idprofesor">
+			<column name="id_profesor"/>
+			<generator class="increment"></generator>	
+	</id>
+	<property name="nombre"></property>
+	<property name="sexo"></property>
+</class>
+<!-- class Modulo -->	
+<class name="hibernate.Modulo" table="modulo" catalog="m06">
+	<id name="idalumno">
+			<column name="id_alumno"/>
+			<generator class="increment"></generator>	
+	</id>
+	<property name="nombre"></property>
+	<property name="codigo"></property>
+</class>
+</hibernate-mapping>
